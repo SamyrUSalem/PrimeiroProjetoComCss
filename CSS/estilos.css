@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+    background-image: linear-gradient(180deg, rgb(252, 252, 252), rgb(105, 103, 103), rgb(7, 7, 7));
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo{
+    flex: 20%;
+    /* border: 1px solid black; */
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: 'Mynerve', cursive;
+    font-size: 30px;
+}
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+.menu a:hover{
+    color: yellow;
+    border-top: 3px solid green;
+}
+
+#botton{
+    background: gray;
+    padding: 10px 30px;
+    color: white;
+    margin-right: 10%;
+    border-radius: 10%;
+    margin-left: 5%;
+
+}
+
+#botton:hover{
+    background-color: rgb(141, 4, 233);
+    color: red;
+    border: none;
+}
+
+.header{
+    /* background-color: white; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headline h2{
+    font-size: 17px;
+    font-weight: 800px;
+    color: red;
+    padding: 0;
+    margin: 0%;
+}
+
+.headline p{
+    color: black;
+    text-align: left;
+}
+
+.botao{
+    background-color: black;
+    padding: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.botao:hover{
+    background-color: blue;
+}
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    /* border: 1px solid green; */
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Mynerve', cursive;
+    margin: 0;
+    width: 100%;
+}
+
+.assistir{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    padding: 40px;
+    background-color: rgb(145, 7, 7);
+    color: white;
+}
+
+.card:hover img{
+    padding: 40px;
+    background-color: rgb(145, 7, 7);
+}
+
+.card:hover .textoreal{
+    display: none;
+}
+
+.card:hover .textooculto{
+    display: block;
+}
+
+.textooculto{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    /* background-image: linear-gradient(180deg, rgb(248, 2, 2), rgb(0, 0, 0), rgb(255, 255, 255)); */
+    text-align: center;
+    /* border-top: 5px solid red; */
+}
+
+.rodape{
+    padding: 100px;
+}
+
+.h1{
+    font-family: 'Mynerve', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.what{
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+
+}
